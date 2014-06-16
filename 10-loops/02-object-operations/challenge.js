@@ -18,16 +18,15 @@ module.exports.extend = function(dest,src) {
       return Obj2;
 }
 
-module.exports.hasElems = function(obj,array1) {
- 
-  for (var i=0; i < array1.length; i++) { 
-      
-    if (array[i] = obj) {
-      console.log(obj[i] + ' ' + array1[i])
-      console.log(obj);
-      console.log(array1);
-      return false
-    } 
-    else {return true}
-    }
-}
+module.exports.hasElems = function(obj, array) 
+{ for (var i = 0; i < array.length; i++)
+ { if (obj[array[i]] == undefined)
+  { return false;} 
+   
+} return true};
+
+
+
+
+
+
